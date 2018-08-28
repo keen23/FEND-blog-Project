@@ -34,6 +34,16 @@ h4 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.sidebar-text:hover h2 {
+    transform: rotate(0deg);
+}
+
+h2 {
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
 p {
     line-height: 1.5;
 }
